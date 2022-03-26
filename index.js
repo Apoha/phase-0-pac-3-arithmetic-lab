@@ -15,10 +15,38 @@ function divide(a, b){
     return a/b;
 }
 
-number =1;
-function add5(number) {
-  return (number += 5);
+
+function increment(n){
+  return (n+1)
+
 }
 
-function subtract3(number) {
-  return (number -= 3);}
+
+
+function decrement(n) {
+return (n-1);}
+
+
+
+
+
+
+function makeInt(n) {
+    
+    return (parseInt(n, 10));}
+    
+    makeInt("0x2328")
+    makeInt('sldkjflksjf')
+
+
+
+
+    
+    
+    function preserveDecimal(n) {
+    
+        return (parseFloat(n));}
+        
+        preserveDecimal('2.222')
+
+        preserveDecimal('sldkjflksjf')
